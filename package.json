@@ -34,5 +34,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-plugin-react": "^7.30.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": ".eslintrc.js",
+  "author": "",
+  "license": "ISC"
 }
