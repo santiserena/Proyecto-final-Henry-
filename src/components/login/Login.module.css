@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    width: 700px;
+    height: 600px;
+    margin: 10% auto;
+    border-radius: 10px;
+    grid-template-rows: repeat(2, 150px);
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(226, 237, 237, 0.589);
+    border: 1px solid black;
+    box-shadow:  5px 5px 20px  rgba(0, 0, 0, 0.411);
+}
+
+.input{
+    margin: 0;
+    width: 322px;
+    height: 40px;
+    position: relative;
+}
+
+.image {
+    background-color: blue;
+}
+
+.btn {
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 330px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: rgb(80, 95, 214);
+}
+
+.btn:hover {
+    animation: pulsate 1.5s ease-in-out;
+    cursor: pointer;
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow:
+        0 0 25px #5ddcff,
+        0 0 50px #4e00c2;
+    }
+}
+
+.register p{
+    text-align: center;  
+}
